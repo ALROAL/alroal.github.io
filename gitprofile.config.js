@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'ALROAL', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 20, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -47,6 +47,12 @@ const config = {
       to: 'June 2021',
       companyLink: 'https://unlimiteck.com/en/',
     },
+    {
+      company: 'Newborn Solutions, S.L',
+      position: 'Data Scientist',
+      from: 'February 2023',
+      companyLink: 'https://newborn.solutions/',
+    }
   ],
   /* certifications: [
     {
